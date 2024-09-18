@@ -5,11 +5,11 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 60px auto;
   background: white;
   padding: 30px;
-  margin: 50px 0;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 8px;
 }
 select {
@@ -31,11 +31,18 @@ h2 {
 }
 footer {
   text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
 }
 .city {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+  padding: 30px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
 }
 .time {
   font-size: 50px;
